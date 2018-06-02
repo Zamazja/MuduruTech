@@ -11,7 +11,7 @@ import { ItemComponent } from './item/item.component';
 
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-
+import { StoreService } from './store.service';
 
 @NgModule({
   declarations: [
@@ -22,12 +22,13 @@ import { HttpClientModule } from '@angular/common/http';
     ItemComponent,
   ],
   imports: [
-    BrowserModule,
+
+  BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [StoreService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
