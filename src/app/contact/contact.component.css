@@ -1,0 +1,9 @@
+.form-control{
+    width: 100%
+}
+
+.form-padding{
+    width: 100%;
+    overflow: hidden;
+    padding: 50px 50px;
+}

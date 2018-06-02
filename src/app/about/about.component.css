@@ -1,0 +1,24 @@
+.container {
+    background: rgb(233, 230, 230);
+    width: 25%;
+    border: 3px solid rgb(255, 30, 30);
+     margin-top: 70px;
+ };
+
+ .carousel-control-prev {
+     color: black
+ };
+
+ .carousel-control-next {
+     color: black
+ };
+
+ .gameshop {
+     margin-right: 50px
+ };
+
+ .carousel {
+    width:100%;
+    height:360px;
+    margin-left: 25%;
+  }
